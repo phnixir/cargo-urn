@@ -1,0 +1,18 @@
+[package]
+name = "cargo-urn"
+description = "For when cargo-clean just isn't cutting it! now if you spell run wrong your program will be cremated!"
+version = "0.1.0"
+license = "GPL-3.0-or-later"
+authors = ["phnixir <67435287+phnixir@users.noreply.github.com>"]
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/phnixir/cargo-urn"
+homepage = "https://github.com/phnixir/cargo-urn"
+categories = ["development-tools"]
+keywords = ["cargo", "subcommand", "plugin", "cargo-subcommand"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4"
+cargo_toml = "0.9"
